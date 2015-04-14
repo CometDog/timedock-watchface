@@ -1,0 +1,52 @@
+{
+  "uuid": "7f1c3fc2-bddd-4845-8737-b167454d276b",
+  "shortName": "TimeDock",
+  "longName": "TimeDock",
+  "companyName": "Lignite",
+  "versionCode": 1,
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "capabilities": [
+    "configurable"
+  ],
+  "appKeys": {
+    "theme": 0,
+    "weatherFormat": 1,
+    "animations": 2,
+    "autoOpen": 3,
+    "dateFormat": 4,
+    "customLoc": 5,
+    "temperature": 6,
+    "condition": 7,
+    "reduceAnimations": 8
+  },
+  "resources": {
+    "media": [
+      {
+        "type":"font",
+        "file":"dillydots.ttf",
+        "name":"FONT_DILLY_DOTS_42"
+      },
+      {
+        "type":"font",
+        "file":"climacons.ttf",
+        "name":"FONT_CLIMACONS_50"
+      },
+      {
+        "type":"png-trans",
+        "file":"illuminati.png",
+        "name":"IMAGE_TRIANGLE"
+      },
+      {
+        "type":"png",
+        "file":"menu.png",
+        "name":"MENU_ICON",
+        "menuIcon":true
+      }
+    ]
+  }
+}
